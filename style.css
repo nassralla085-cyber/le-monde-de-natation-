@@ -579,6 +579,76 @@ footer p:hover{
 
 @media (max-width:768px){
 
+nav{
+    flex-direction: column;
+}
+
+nav ul{
+    flex-direction: column;
+    text-align: center;
+}
+
+nav ul li{
+    margin:10px 0;
+}
+
+.hero{
+    height:auto;
+    padding:60px 20px;
+}
+
+.hero h1{
+    font-size:28px;
+}
+
+.hero p{
+    font-size:15px;
+}
+
+.btn{
+    padding:12px 22px;
+    font-size:16px;
+}
+
+.conten{
+    padding:40px 20px;
+}
+
+.conten h2{
+    font-size:28px;
+}
+
+.img img{
+    width:100%;
+}
+
+.papillon,
+.dos,
+.brasse{
+    padding:40px 10px;
+}
+
+.papillon div,
+.dos div,
+.brasse div{
+    padding:20px;
+}
+
+.cham li{
+    padding:18px;
+}
+
+h1{
+    font-size:28px;
+}
+
+h2{
+    font-size:22px;
+}
+
+}
+@media (max-width:768px){
+
 footer{
     padding:25px 15px;
     font-size:14px;
@@ -587,5 +657,6 @@ footer{
 footer p{
     line-height:1.6;
 }
+
 
 }
